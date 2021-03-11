@@ -42,45 +42,16 @@
     background-position: center;
 }
 
-#img1 {
-    background-image: url(https://picsum.photos/1920/1080/?random=1);
-}
-
-#img2 {
-    background-image: url(https://picsum.photos/1920/1080/?random=2);
-}
-
-#img3 {
-    background-image: url(https://picsum.photos/1920/1080/?random=3);
-}
-
-#img4 {
-    background-image: url(https://picsum.photos/1920/1080/?random=4);
-}
-
-#img5 {
-    background-image: url(https://picsum.photos/1920/1080/?random=5);
-}
-
-#img6 {
-    background-image: url(https://picsum.photos/1920/1080/?random=6);
-}
-
-#img7 {
-    background-image: url(https://picsum.photos/1920/1080/?random=7);
-}
-
-#img8 {
-    background-image: url(https://picsum.photos/1920/1080/?random=8);
-}
-
-#img9 {
-    background-image: url(https://picsum.photos/1920/1080/?random=9);
-}
-
-#img10 {
-    background-image: url(https://picsum.photos/1920/1080/?random=10);
-}
+#img1 {background-image: url(https://picsum.photos/1920/1080/?random=1);}
+#img2 {background-image: url(https://picsum.photos/1920/1080/?random=2);}
+#img3 {background-image: url(https://picsum.photos/1920/1080/?random=3);}
+#img4 {background-image: url(https://picsum.photos/1920/1080/?random=4);}
+#img5 {background-image: url(https://picsum.photos/1920/1080/?random=5);}
+#img6 {background-image: url(https://picsum.photos/1920/1080/?random=6);}
+#img7 {background-image: url(https://picsum.photos/1920/1080/?random=7);}
+#img8 {background-image: url(https://picsum.photos/1920/1080/?random=8);}
+#img9 {background-image: url(https://picsum.photos/1920/1080/?random=9);}
+#img10 {background-image: url(https://picsum.photos/1920/1080/?random=10);}
 
 #cover {
     display: none;
