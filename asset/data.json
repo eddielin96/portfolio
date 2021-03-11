@@ -1,0 +1,167 @@
+[{
+        "ID": 1,
+        "title": "軟糖熊",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "小熊軟糖 - 練習掌握圖層和陰影繪製，以利圖片呈現立體效果，較為生動活潑。",
+        "link": "",
+        "img": "img/熊.jpg"
+    },
+
+    {
+        "ID": 2,
+        "title": "可愛插圖",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "利用幾何圖形重組安排，以設計簡單圖像，同時也訓練分析及觀察圖像的圖形組成",
+        "link": "",
+        "img": "img/插圖.png"
+    },
+    {
+        "ID": 3,
+        "title": "眼睛",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "重複利用鏡像反射和扭曲曲線的功能，重疊後形成眼睛的紋路。",
+        "link": "",
+        "img": "img/眼睛.png"
+    },
+    {
+        "ID": 4,
+        "title": "鬼",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "幾何圖形和圓角功能混合使用堆疊出幽靈的輪廓。",
+        "link": "",
+        "img": "img/鬼.jpg"
+    },
+    {
+        "ID": 5,
+        "title": "冰塊",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "鋼筆工具練習，掌握冰塊的立體圖形結構，並使用鋼筆工具繪出曲線",
+        "link": "",
+        "img": "img/冰塊.png"
+    },
+    {
+        "ID": 6,
+        "title": "人物插圖",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "鋼筆工具練習，人物頭髮為不規則曲線，須要常練習以掌握曲線的比例",
+        "link": "",
+        "img": "img/人物插圖.png"
+    },
+    {
+        "ID": 7,
+        "title": "雪花",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "利用鏡射功能繪製出對稱圖形的雪花。",
+        "link": "",
+        "img": "img/雪花.jpg"
+    },
+    {
+        "ID": 8,
+        "title": "向日葵",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "鏡射和旋轉功能，及鋼筆工具的應用結合，以繪出花朵的細節。",
+        "link": "",
+        "img": "img/向日葵.png"
+    },
+    {
+        "ID": 9,
+        "title": "萬聖節海報",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "萬聖節海報傳單設計",
+        "link": "",
+        "img": "img/萬聖節海報.png"
+    },
+    {
+        "ID": 10,
+        "title": "甜甜圈海報",
+        "type": "插圖",
+        "technique": "ai",
+        "info": "甜甜圈海報設計",
+        "link": "",
+        "img": "img/甜甜圈海報.jpg"
+    },
+    {
+        "ID": 11,
+        "title": "萬年曆",
+        "type": "網頁",
+        "technique": "html / php / css",
+        "info": "練習使用php的for迴圈和if的判斷功能，以正確排列出日期的位置",
+        "link": "http://220.128.133.15/s1090417/eddielin/calender/",
+        "img": "img/日曆.png"
+    },
+    {
+        "ID": 12,
+        "title": "簡易英文單字庫",
+        "type": "網頁",
+        "technique": "html / css / php / mysql",
+        "info": "結合php和mysql的語法，讓使用者能自行增加單字於單字資料庫，提供增減刪查的功能，以及簡易的考試測驗。",
+        "link": "http://220.128.133.15/s1090417/eddielin/funvocabs/",
+        "img": "img/單字庫.png"
+    },
+    {
+        "ID": 13,
+        "title": "英文小遊戲",
+        "type": "網頁",
+        "technique": "html / css / sweetalert  / js",
+        "info": "使用sweetalert套件，以巢狀架構寫出簡易的yes/no的闖關遊戲。",
+        "link": "http://220.128.133.15/s1090417/eddielin/SweetAlertGame/",
+        "img": "img/英文小遊戲.png"
+    },
+    {
+        "ID": 14,
+        "title": "世界時鐘",
+        "type": "網頁",
+        "technique": "html / css / js /ai",
+        "info": "練習js的語法，setinterval每秒更新的功能，製作出電子時鐘的感覺。",
+        "link": "http://220.128.133.15/s1090417/eddielin/worldClock/",
+        "img": "img/世界時鐘.png"
+    },
+    {
+        "ID": 15,
+        "title": "api串接練習",
+        "type": "網頁",
+        "technique": "html / php / css / bootstrap / js / ajax ",
+        "info": "結合php的curl功能和ajax技術，從後台抓回資料再進行前台資料結構的呈現。",
+        "link": "http://220.128.133.15/s1090417/api_ch/",
+        "img": "img/api串接.png"
+    },
+    {
+        "ID": 16,
+        "title": "程式筆記",
+        "type": "logo設計",
+        "technique": "ai",
+        "info": "此為我instagram的粉專logo設計，設計概念為以我的英文名字開頭兩字ED為原型，重新排列後為海洋中的水母，象徵程式的學習領域像海洋一樣沒有盡頭，而水母為光芒和平衡，以期每個學習程式的人都像水母一樣，在這個海洋中能不斷學習新知不斷前行。",
+        "link": "https://www.instagram.com/web_codelearning/",
+        "img": "img/程式筆記.png"
+    },
+    {
+        "ID": 17,
+        "title": "英文筆記",
+        "type": "logo設計",
+        "technique": "ai",
+        "info": "此為我instagram的粉專logo設計，設計概念為以我的英文名字開頭兩字ＥＤ為原型，以活潑和快樂學習的精神做設計，因此logo為一個笑臉。",
+        "link": "https://www.instagram.com/eddiecuteenglish/",
+        "img": "img/艾迪英文.png"
+    },
+    {
+        "ID": 18,
+        "title": "中文教學",
+        "type": "logo設計",
+        "technique": "ai",
+        "info": "此為我instagram的粉專logo設計，設計概念為以我的英文名字開頭兩字ＥＤ為原型，粉專的中文名稱為點子中文，因此將logo設計為燈泡的樣子，希望能不斷有新的點子，新的想法和有趣的內容能分享給大家。",
+        "link": "https://www.instagram.com/twmandarin_ideas/",
+        "img": "img/中文教學.png"
+    }
+
+
+
+]
