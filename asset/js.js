@@ -39,7 +39,7 @@ function loading(data) {
 }
 
 
-for (i = 2; i <= 10; i++) {
+for (i = 2; i <= 5; i++) {
     $('#img' + i).hide();
 }
 
@@ -51,7 +51,7 @@ function picshow() {
         console.log(a);
         a++;
 
-        if (a == 11) {
+        if (a == 6) {
             allhide()
         }
     }, 2000);
@@ -59,9 +59,9 @@ function picshow() {
 
 function allhide() {
     clearInterval(stop)
-    for (i = 2; i <= 10; i++) {
+    for (i = 2; i <= 5; i++) {
         $('#img' + i).fadeOut(2000, (() => {
-            for (i = 2; i <= 10; i++) {
+            for (i = 2; i <= 5; i++) {
                 $('#img' + i).hide();
                 a = 2
             }
@@ -69,7 +69,14 @@ function allhide() {
     }
 }
 
-picshow();
+document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+        picshow();
+    }
+  }
+
+
+
 
 
 function moreinfo(a, b, id){
@@ -111,3 +118,7 @@ function moreinfo(a, b, id){
 
         $("#cvr").append(detail);
 }
+
+setTimeout(function(){
+    $('.loader_bg').fadeToggle();
+},9500);

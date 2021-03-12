@@ -47,11 +47,9 @@
 #img3 {background-image: url(https://picsum.photos/1920/1080/?random=3);}
 #img4 {background-image: url(https://picsum.photos/1920/1080/?random=4);}
 #img5 {background-image: url(https://picsum.photos/1920/1080/?random=5);}
-#img6 {background-image: url(https://picsum.photos/1920/1080/?random=6);}
-#img7 {background-image: url(https://picsum.photos/1920/1080/?random=7);}
-#img8 {background-image: url(https://picsum.photos/1920/1080/?random=8);}
-#img9 {background-image: url(https://picsum.photos/1920/1080/?random=9);}
-#img10 {background-image: url(https://picsum.photos/1920/1080/?random=10);}
+#img2, #img3,#img4,#img5{
+    display: none;
+}
 
 #cover {
     display: none;
@@ -131,4 +129,125 @@
 .footer span {
     margin-right: 10px;
     margin-left: 10px;
+}
+
+/* loading css  animation*/
+.loader_bg{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    z-index: 99999;
+    background:#fcecb0;
+    width:100%;
+    height:100vh;
+}
+.loader{
+    width:300px;
+    height:300px;
+    position:relative;
+ 
+ 
+
+}
+.loader:before, .loader:after{
+    content:"";
+    border:1em solid #ff5733;
+    border-radius:50%;
+    width:inherit;
+    height:inherit;
+    position: absolute;
+    top:-5%;
+    left:-5%;
+    transform:translate(-50%,-50%);
+    transform:scale(1);
+    transform-origin:bottom;
+    animation: loader 2s linear infinite;
+    opacity:0;
+}
+.loader:before{
+    animation-delay:.5s;
+}
+
+
+@keyframes loader{
+    0%{
+        transform-origin:center ;
+        transform:scale(0);
+        opacity: 0;
+    }
+    50%{
+        transform-origin:center ;
+        opacity: 1;
+
+    }
+    100%{
+        transform-origin:center ;
+        transform:scale(1);
+        opacity: 0;
+    }
+}
+
+.countdown{
+    z-index: 100;
+    /* background:red; */
+    width:50%;
+    height:50%;
+    position: absolute;
+    top:45%;
+    left:45%;
+    transform: translate(-50%,-50%);
+    background-repeat: no-repeat;
+    background-image: url('/img/num.png');
+    background-position:0px -1350px;
+    transition:all 1s; 
+    animation: countdown 10s ease 1;
+    animation-fill-mode: forwards;
+
+}
+.countdown:after{
+    content:"LOADING...";
+    text-align:center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:100%;
+    height:20%;
+    position:absolute;
+    bottom:0%;
+    transform: translate(0,105%);
+    
+}
+
+@keyframes countdown{
+    10%{
+        background-position:0px -1250px;
+    }
+    20%{
+        background-position:0px -1050px;
+    }
+    30%{
+        background-position:0px -900px;
+    }
+    40%{
+        background-position:0px -750px;
+    }
+    50%{
+        background-position:0px -600px;
+    }
+    60%{
+        background-position:0px -450px;
+    }
+    70%{
+        background-position:0px -300px;
+    }
+    80%{
+        background-position:0px -150px;
+    }
+    90%{
+        background-position:0px 0px;
+    }
+    100%{
+        background-position:0px 0px;
+    } 
 }
