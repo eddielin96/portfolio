@@ -198,7 +198,7 @@
     left:45%;
     transform: translate(-50%,-50%);
     background-repeat: no-repeat;
-    background-image: url('/img/num.png');
+    background-image: url('num.png');
     background-position:0px -1350px;
     transition:all 1s; 
     animation: countdown 10s ease 1;
